@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+App	src/App.tsx	/^function App() {$/;"	f
+App	src/index.tsx	/^import App from ".\/App";$/;"	I
+Header	src/App.tsx	/^import Header from ".\/components\/Header";$/;"	I
+Intro	src/App.tsx	/^import Intro from ".\/components\/Intro";$/;"	I
+Navigation	src/App.tsx	/^import Navigation from ".\/components\/Navigation";$/;"	I
+React	src/App.tsx	/^import React from "react";$/;"	I
+React	src/components/Header.tsx	/^import React from "react";$/;"	I
+React	src/components/Intro.tsx	/^import React from "react";$/;"	I
+React	src/components/Navigation.tsx	/^import React from "react";$/;"	I
+React	src/index.tsx	/^import React from "react";$/;"	I
+ReactDOM	src/index.tsx	/^import ReactDOM from "react-dom";$/;"	I
+reportWebVitals	src/index.tsx	/^import reportWebVitals from ".\/reportWebVitals";$/;"	I
+styles	src/App.tsx	/^import styles from ".\/App.module.scss";$/;"	I
+styles	src/components/Header.tsx	/^import styles from ".\/Header.module.scss";$/;"	I
+styles	src/components/Intro.tsx	/^import styles from ".\/Intro.module.scss";$/;"	I
+styles	src/components/Navigation.tsx	/^import styles from ".\/Navigation.module.scss";$/;"	I

@@ -1,14 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import styles from "./App.module.scss";
+import Header from "./components/Header";
+import Intro from "./components/Intro";
+import Navigation from "./components/Navigation";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-            This is going to be some text in the portfolio.
-        </p>
-      </header>
+    <div className={styles.App}>
+      <Navigation />
+      <Header />
+      <Intro />
     </div>
   );
 }

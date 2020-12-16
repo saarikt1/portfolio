@@ -3,7 +3,7 @@ import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
-    <header className={styles.appHeader}>
+    <header id={styles.Header}>
       <h1>Tommi Saarikangas</h1>
       <h2>Developer and Designer</h2>
     </header>

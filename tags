@@ -4,19 +4,28 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+About	src/App.tsx	/^import About from ".\/components\/About";$/;"	I
 App	src/App.tsx	/^function App() {$/;"	f
 App	src/index.tsx	/^import App from ".\/App";$/;"	I
+Footer	src/App.tsx	/^import Footer from ".\/components\/Footer";$/;"	I
 Header	src/App.tsx	/^import Header from ".\/components\/Header";$/;"	I
 Intro	src/App.tsx	/^import Intro from ".\/components\/Intro";$/;"	I
 Navigation	src/App.tsx	/^import Navigation from ".\/components\/Navigation";$/;"	I
+Projects	src/App.tsx	/^import Projects from ".\/components\/Projects";$/;"	I
 React	src/App.tsx	/^import React from "react";$/;"	I
+React	src/components/About.tsx	/^import React from "react";$/;"	I
+React	src/components/Footer.tsx	/^import React from "react";$/;"	I
 React	src/components/Header.tsx	/^import React from "react";$/;"	I
 React	src/components/Intro.tsx	/^import React from "react";$/;"	I
 React	src/components/Navigation.tsx	/^import React from "react";$/;"	I
+React	src/components/Projects.tsx	/^import React from "react";$/;"	I
 React	src/index.tsx	/^import React from "react";$/;"	I
 ReactDOM	src/index.tsx	/^import ReactDOM from "react-dom";$/;"	I
 reportWebVitals	src/index.tsx	/^import reportWebVitals from ".\/reportWebVitals";$/;"	I
 styles	src/App.tsx	/^import styles from ".\/App.module.scss";$/;"	I
+styles	src/components/About.tsx	/^import styles from ".\/About.module.scss";$/;"	I
+styles	src/components/Footer.tsx	/^import styles from ".\/Footer.module.scss";$/;"	I
 styles	src/components/Header.tsx	/^import styles from ".\/Header.module.scss";$/;"	I
 styles	src/components/Intro.tsx	/^import styles from ".\/Intro.module.scss";$/;"	I
 styles	src/components/Navigation.tsx	/^import styles from ".\/Navigation.module.scss";$/;"	I
+styles	src/components/Projects.tsx	/^import styles from ".\/Projects.module.scss";$/;"	I

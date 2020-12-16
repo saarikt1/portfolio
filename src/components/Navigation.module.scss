@@ -6,11 +6,20 @@
   width: 100vw;
   position: fixed;
   top: 0;
+  display: flex;
+  justify-content: center;
 
-  a {
-    text-decoration: none;
+  button {
+    background: $nav-bg-color;
     color: $primary-text-color;
-    padding: 16px;
+    border: none;
+    padding: 12px;
+    margin: 12px 0;
+    font-size: 1.125rem;
+
+    &:hover {
+      color: $highlight-color;
+    }
   }
 }
 

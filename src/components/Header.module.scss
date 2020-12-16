@@ -1,6 +1,8 @@
 @import "../globals.scss";
 
-.appHeader {
+#Header {
   color: $primary-text-color;
   text-align: center;
+  width: 100%;
+  background-color: $secondary-bg-color;
 }

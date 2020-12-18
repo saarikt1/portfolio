@@ -6,21 +6,29 @@ $highlight-color: #E6A40B;
 
 $margin-xs: 8px;
 $margin-s: 16px;
-$margin-m: 32px;
-$margin-l: 64px;
-$margin-xl: 128px;
+$margin-m: 24px;
+$margin-l: 32px;
+$margin-xl: 64px;
+$margin-xxl: 128px;
 
 html {
   font-size: 16px;
 }
 
+body {
+  padding-top: 70px;
+}
+
 h1 {
   font-size: 2.625rem;
-  margin-top: $margin-l;
+  margin-top: $margin-xl;
+  margin-bottom: $margin-m;
 }
 
 h2 {
   font-size: 1.25rem;
+  margin-top: $margin-l;
+  margin-bottom: $margin-xl;
 }
 
 p {

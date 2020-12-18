@@ -3,5 +3,17 @@
 #Footer {
   color:  $primary-text-color;
   text-align: center;
-  margin: $margin-l 0;
+  margin: $margin-l 0 0 0;
+  width: 100%;
+  background-color: $secondary-bg-color;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+
+  #contactIcons {
+    margin: $margin-l 0;
+  }
+
+  #contactEmail {
+    margin-bottom: $margin-xl;
+  }
 }

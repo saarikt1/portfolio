@@ -4,7 +4,7 @@ import styles from "./Navigation.module.scss";
 const Navigation = () => {
   return (
     <nav className={styles.navBar}>
-      <button>Home</button>
+      <button className={styles.selected}>Home</button>
       <button>Projects</button>
       <button>About</button>
       <button>Contact</button>

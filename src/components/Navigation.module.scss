@@ -13,12 +13,17 @@
     background: $nav-bg-color;
     color: $primary-text-color;
     border: none;
-    padding: 12px;
-    margin: 12px 0;
+    padding: 0px 0px 20px 0px;
+    margin: 24px 12px 0 12px;
     font-size: 1.125rem;
 
     &:hover {
       color: $highlight-color;
+    }
+
+    &.selected {
+      color: $highlight-color;
+      border-bottom: 4px solid $highlight-color;
     }
   }
 }

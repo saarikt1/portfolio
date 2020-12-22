@@ -15,5 +15,14 @@
 
   #contactEmail {
     margin-bottom: $margin-xl;
+
+    a {
+      text-decoration: none;
+      color: $highlight-color;
+
+      &:hover {
+        box-shadow: 0 2px $highlight-color;
+      }
+    }
   }
 }

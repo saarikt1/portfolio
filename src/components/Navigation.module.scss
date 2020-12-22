@@ -2,7 +2,7 @@
 
 .navBar {
   background-color: $nav-bg-color;
-  height: 70px;
+  height: 56px;
   width: 100vw;
   position: fixed;
   top: 0;
@@ -12,19 +12,26 @@
 
   button {
     background: $nav-bg-color;
+    height: 56px;
     color: $primary-text-color;
     border: none;
-    padding: 0px 0px 20px 0px;
-    margin: 24px 12px 0 12px;
+    margin: 0 12px;
     font-size: 1.125rem;
 
     &:hover {
       color: $highlight-color;
+      cursor: pointer;
     }
 
     &.selected {
       color: $highlight-color;
       box-shadow: inset 0 -4px $highlight-color;
+    }
+
+    &:focus {
+      outline: none;
+      color: #F9D277;
+      box-shadow: inset 0 -1px #F9D277;
     }
   }
 }

@@ -24,7 +24,7 @@
 
     &.selected {
       color: $highlight-color;
-      border-bottom: 4px solid $highlight-color;
+      box-shadow: inset 0 -4px $highlight-color;
     }
   }
 }
